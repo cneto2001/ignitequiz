@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ignitequiz",
-    "slug": "ignitequiz",
+    "name": "ignitequizapp",
+    "slug": "ignitequizapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,13 +18,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rocketseat.ignitequiz"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rocketseat.ignitequiz"
     },
     "web": {
       "favicon": "./assets/favicon.png"
